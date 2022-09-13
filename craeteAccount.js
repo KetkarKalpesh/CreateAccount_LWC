@@ -18,14 +18,7 @@ export default class CraeteAccount extends LightningElement {
             variant : "success",
         });
         this.dispatchEvent(evt);
-        // this[NavigationMixin.Navigate]({
-        //     type: 'standard__recordPage',
-        //     attributes: {
-        //         recordId: event.detail.id,
-        //         objectApiName: 'Account',
-        //         actionName: 'view'
-        //     },
-        // });
+        
     }
 
 }
